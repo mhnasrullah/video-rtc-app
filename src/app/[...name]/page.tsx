@@ -117,7 +117,7 @@ export default function Home() {
         <div>
           <div>
             {streamContext?.stream ? (
-              <Video srcObject={streamContext?.stream} muted />
+              <Video srcObject={streamContext?.stream} muted={true} />
             ) : (
               <p>video not available</p>
             )}

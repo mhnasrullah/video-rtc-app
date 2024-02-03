@@ -50,7 +50,7 @@ const Page: FC = () => {
       <h1>Join</h1>
 
       {streamContext?.stream && (
-        <video ref={videoRef} autoPlay playsInline width={500} height={500} muted />
+        <video ref={videoRef} autoPlay playsInline width={500} height={500} muted={true} />
       )}
 
       <input
