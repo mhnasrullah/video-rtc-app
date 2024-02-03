@@ -21,7 +21,7 @@ const Page: FC = () => {
 
   const openCam = async () => {
     return await navigator.mediaDevices.getUserMedia({
-      audio: false,
+      audio: true,
       video: true,
     });
   };
